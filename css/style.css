@@ -9,7 +9,6 @@ body{
     background-color: #fff;
     color: black;
     font-family: 'Roboto Mono', monospace;
-    min-height: 100vh;
 }
 .contenedor{
     width: 100%;
@@ -29,10 +28,10 @@ body{
 .contenedor .sidebar,
 .contenedor .contenido,
 .contenedor .footer,
-
 .footer{
     background-color: #fff;
     border-radius: 4px;
+    align-self: flex-end;
 }
 .texto-P{
     grid-area: texto;
@@ -167,6 +166,9 @@ body{
 .carro{
     height: 350px;
     width: 100%;
+}
+.mapa{
+    padding-top: 15px;
 }
 @media screen and (max-width: 768px){
     .contenedor{
